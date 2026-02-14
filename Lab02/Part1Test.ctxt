@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Part1Test
+comment1.params=
+comment1.target=void\ testEquals()
+comment2.params=
+comment2.target=void\ testConcat()
+comment3.params=
+comment3.target=void\ testCompareTo()
+comment4.params=
+comment4.target=void\ testCharAt()
+comment5.params=
+comment5.target=void\ testIndexOf()
+comment6.params=
+comment6.target=void\ testSubstring()
+comment7.params=
+comment7.target=void\ testSplit()
+numComments=8
