@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CustomerReview
+comment0.text=\n\ Represents\ a\ customer\ review\ with\ a\ customer\ name\ and\ their\ latest\ review\n\ Two\ CustomerReview\ objects\ are\ considered\ equal\ if\ they\ have\ the\ same\ customer\ name\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 2.17.2026\n\n
+comment1.params=customerName\ latestReview
+comment1.target=CustomerReview(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Creates\ a\ new\ CustomerReview\ with\ the\ specified\ customer\ name\ and\ review\ text.\n\ \n\ @param\ customerName\ the\ name\ of\ the\ customer\ who\ wrote\ the\ review\n\ @param\ latestReview\ the\ text\ content\ of\ the\ customer's\ latest\ review\n
+comment2.params=
+comment2.target=java.lang.String\ getCustomerName()
+comment2.text=\n\ Gets\ the\ customer\ name.\n\ \n\ @return\ the\ name\ of\ the\ customer\ who\ wrote\ this\ review\n
+comment3.params=
+comment3.target=java.lang.String\ getLatestReview()
+comment3.text=\n\ Gets\ the\ latest\ review\ text.\n\ \n\ @return\ the\ text\ content\ of\ the\ customer's\ latest\ review\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Checks\ if\ this\ CustomerReview\ is\ equal\ to\ another\ object.\n\ Two\ CustomerReview\ objects\ are\ considered\ equal\ if\ they\ have\ the\ same\ customer\ name,\n\ regardless\ of\ the\ review\ text\ content.\n\ \n\ @param\ obj\ the\ object\ to\ compare\ with\ this\ CustomerReview\n\ @return\ true\ if\ obj\ is\ a\ CustomerReview\ with\ the\ same\ customer\ name,\ false\ otherwise\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\n\ Returns\ the\ hash\ code\ for\ this\ CustomerReview.\n\ The\ hash\ code\ is\ computed\ based\ on\ the\ customer\ name\ only,\ which\ is\n\ consistent\ with\ the\ equals()\ method\ implementation.\n\ \n\ @return\ the\ hash\ code\ value\ for\ this\ CustomerReview\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Returns\ a\ string\ representation\ of\ this\ CustomerReview.\n\ The\ format\ is\:\ "Name\:\ [customerName]\ Review\:\ [latestReview]"\n\ For\ example\:\ "Name\:\ Bob\ Review\:\ It\ was\ good"\n\ \n\ @return\ a\ formatted\ string\ containing\ the\ customer\ name\ and\ review\ text\n
+numComments=7
