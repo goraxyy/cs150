@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Bear
+comment0.text=\n\ Represents\ a\ bear\ in\ the\ river\ ecosystem.\n\ A\ bear\ lives\ at\ most\ to\ the\ end\ of\ its\ 9th\ year\ (age\ 0-9,\ 10\ cycles).\n\ Strength\ varies\ with\ age\:\ {1,2,3,4,5,4,3,2,1,0}\ for\ ages\ 0-9.\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 2/23/2026\n
+comment1.params=
+comment1.target=Bear()
+comment1.text=\n\ Creates\ a\ bear\ with\ a\ random\ age\ (0\ to\ MAX_AGE)\ and\ random\ sex.\n
+comment2.params=
+comment2.target=int\ getStrength()
+comment2.text=\n\ Returns\ the\ current\ strength\ of\ the\ bear\ based\ on\ its\ age.\n\n\ @return\ the\ strength\ value\n
+comment3.params=
+comment3.target=boolean\ maxAge()
+comment3.text=\n\ Returns\ true\ if\ this\ bear\ has\ reached\ its\ maximum\ age\ (9).\n\n\ @return\ true\ if\ age\ \=\=\ MAX_AGE\n
+comment4.params=
+comment4.target=boolean\ incrAge()
+comment4.text=\n\ Increments\ the\ bear's\ age\ by\ one\ if\ it\ has\ not\ yet\ reached\ MAX_AGE.\n\n\ @return\ true\ if\ age\ was\ incremented,\ false\ otherwise\n
+numComments=5

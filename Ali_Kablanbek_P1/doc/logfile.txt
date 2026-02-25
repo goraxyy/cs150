@@ -1,0 +1,163 @@
+Project documentation
+<---- javadoc command: ---->
+javadoc
+-sourcepath
+/Users/kablanbekali/Project01
+-source
+21
+-classpath
+/Applications/BlueJ.app/Contents/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Java/javafx-graphics-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-base-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-web-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-controls-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-swing-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-fxml-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-media-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/junit-4.12.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-params-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-api-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-suite-api-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-vintage-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-engine-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-launcher-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-commons-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/hamcrest-core-1.3.jar:/Applications/BlueJ.app/Contents/Java/opentest4j-1.2.0.jar:/Applications/BlueJ.app/Contents/Java/lang-stride.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.base.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.controls.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.fxml.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.graphics.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.media.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.properties.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.swing.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.web.jar:/Users/kablanbekali/Project01
+-d
+/Users/kablanbekali/Project01/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-doctitle
+Project01
+-windowtitle
+Project01
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/21/docs/api/
+/Users/kablanbekali/Project01/RiverTest.java
+/Users/kablanbekali/Project01/Animal.java
+/Users/kablanbekali/Project01/River.java
+/Users/kablanbekali/Project01/Fish.java
+/Users/kablanbekali/Project01/RiverSimulator.java
+/Users/kablanbekali/Project01/Bear.java
+<---- end of javadoc command ---->
+Loading source file /Users/kablanbekali/Project01/RiverTest.java...
+Loading source file /Users/kablanbekali/Project01/Animal.java...
+Loading source file /Users/kablanbekali/Project01/River.java...
+Loading source file /Users/kablanbekali/Project01/Fish.java...
+Loading source file /Users/kablanbekali/Project01/RiverSimulator.java...
+Loading source file /Users/kablanbekali/Project01/Bear.java...
+Constructing Javadoc information...
+warning: unknown enum constant Status.STABLE
+  reason: class file for org.apiguardian.api.API$Status not found
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+Building index for all the packages and classes...
+Standard Doclet version 21.0.6+7-LTS
+Building tree for all the packages and classes...
+Generating /Users/kablanbekali/Project01/doc/Animal.html...
+Generating /Users/kablanbekali/Project01/doc/Animal.Sex.html...
+Generating /Users/kablanbekali/Project01/doc/Bear.html...
+Generating /Users/kablanbekali/Project01/doc/Fish.html...
+Generating /Users/kablanbekali/Project01/doc/River.html...
+Generating /Users/kablanbekali/Project01/doc/RiverSimulator.html...
+Generating /Users/kablanbekali/Project01/doc/RiverTest.html...
+Generating /Users/kablanbekali/Project01/doc/package-summary.html...
+Generating /Users/kablanbekali/Project01/doc/package-tree.html...
+Generating /Users/kablanbekali/Project01/doc/constant-values.html...
+Generating /Users/kablanbekali/Project01/doc/overview-tree.html...
+Building index for all classes...
+Generating /Users/kablanbekali/Project01/doc/allclasses-index.html...
+Generating /Users/kablanbekali/Project01/doc/allpackages-index.html...
+Generating /Users/kablanbekali/Project01/doc/index-all.html...
+Generating /Users/kablanbekali/Project01/doc/search.html...
+Generating /Users/kablanbekali/Project01/doc/index.html...
+Generating /Users/kablanbekali/Project01/doc/help-doc.html...
+100 warnings

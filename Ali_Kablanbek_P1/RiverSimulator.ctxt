@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RiverSimulator
+comment0.text=\n\ Main\ class\ that\ drives\ the\ river\ ecosystem\ simulation.\n\ Repeatedly\ prompts\ the\ user\ to\ create\ and\ simulate\ river\ ecosystems.\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 2/23/2026\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ method\:\ runs\ the\ river\ ecosystem\ simulator\ in\ a\ loop.\n\ The\ user\ can\ choose\ to\ simulate\ a\ random\ river\ or\ exit.\n\n\ @param\ args\ command-line\ arguments\ (unused)\n
+comment2.params=scanner
+comment2.target=void\ runSimulation(java.util.Scanner)
+comment2.text=\n\ Runs\ one\ complete\ simulation\:\ prompts\ for\ length\ and\ cycles,\n\ creates\ the\ river,\ then\ prints\ each\ cycle.\n\n\ @param\ scanner\ the\ Scanner\ to\ read\ input\ from\n
+comment3.params=scanner
+comment3.target=int\ readAnyInt(java.util.Scanner)
+comment3.text=\n\ Reads\ any\ integer\ from\ the\ scanner\ (used\ for\ the\ main\ menu).\n\n\ @param\ scanner\ the\ Scanner\ to\ read\ from\n\ @return\ the\ integer\ entered\ by\ the\ user\n
+comment4.params=scanner
+comment4.target=int\ readPositiveInt(java.util.Scanner)
+comment4.text=\n\ Reads\ integers\ from\ the\ scanner\ until\ a\ positive\ integer\ (>\ 0)\ is\ entered.\n\ Used\ for\ river\ length\ and\ cycle\ count\ inputs.\n\n\ @param\ scanner\ the\ Scanner\ to\ read\ from\n\ @return\ a\ positive\ integer\ entered\ by\ the\ user\n
+numComments=5

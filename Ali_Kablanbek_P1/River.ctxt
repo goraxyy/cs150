@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=River
+comment0.text=\n\ Models\ a\ river\ ecosystem\ as\ a\ circular\ one-dimensional\ array\ of\ Animal\ objects.\n\ Cells\ may\ contain\ a\ Bear,\ a\ Fish\ or\ null\ (empty).\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 2/23/2026\n
+comment1.params=length
+comment1.target=River(int)
+comment1.text=\n\ Generates\ a\ random\ river\ ecosystem\ of\ the\ given\ length.\n\ Each\ cell\ is\ independently\ filled\:\ k\=0\ ->\ null,\ k\=1\ ->\ Fish,\ k\=2\ ->\ Bear.\n\ Sex\ and\ age\ of\ each\ animal\ are\ chosen\ uniformly\ at\ random\ within\ valid\ ranges.\n\n\ @param\ length\ the\ number\ of\ cells\ in\ the\ river\n
+comment2.params=
+comment2.target=int\ getLength()
+comment2.text=\n\ Returns\ the\ length\ of\ the\ river.\n\n\ @return\ the\ number\ of\ cells\n
+comment3.params=
+comment3.target=int\ numEmpty()
+comment3.text=\n\ Returns\ the\ number\ of\ empty\ (null)\ cells\ in\ the\ river.\n\n\ @return\ count\ of\ null\ cells\n
+comment4.params=animal
+comment4.target=boolean\ addRandom(Animal)
+comment4.text=\n\ Adds\ a\ new\ animal\ of\ age\ 0,\ randomly\ chosen\ sex\ and\ same\ type\ as\ the\ given\ animal\n\ to\ a\ randomly\ chosen\ empty\ cell.\ Does\ nothing\ and\ returns\ false\ if\ no\ empty\ cells\ exist.\n\n\ @param\ animal\ the\ animal\ whose\ type\ (Bear\ or\ Fish)\ will\ be\ used\ for\ the\ new\ animal\n\ @return\ true\ if\ an\ animal\ was\ added,\ false\ if\ the\ river\ is\ full\n
+comment5.params=i\ alreadyMoved
+comment5.target=void\ updateCell(int,\ boolean[])
+comment5.text=\n\ Processes\ the\ animal\ at\ cell\ i\ for\ one\ simulation\ step.\n\ Handles\ movement,\ "combat"\ and\ reproduction\ according\ to\ the\ rules.\n\ Aging\ and\ lifespan\ death\ are\ handled\ by\ updateRiver\ before\ this\ is\ called.\n\n\ @param\ i\ \ \ \ \ \ \ \ \ \ \ \ the\ index\ of\ the\ cell\ to\ update\n\ @param\ alreadyMoved\ boolean\ array;\ set\ to\ true\ at\ the\ destination\ whenever\ an\ animal\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ moves\ successfully,\ so\ updateRiver\ can\ skip\ re-processing\ it\n
+comment6.params=
+comment6.target=void\ updateRiver()
+comment6.text=\n\ Performs\ one\ full\ cycle\ of\ the\ simulation\:\n\ 1.\ All\ animals\ age\ by\ one\ year;\ those\ that\ exceed\ their\ lifespan\ die.\n\ 2.\ Cells\ are\ processed\ from\ left\ to\ right\ (updateCell).\n\ \ \ \ An\ alreadyMoved[]\ array\ prevents\ any\ animal\ from\ being\ processed\ twice\n\ \ \ \ in\ the\ same\ cycle\ (e.g.\ after\ moving\ right\ or\ wrapping\ around\ circularly).\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ string\ representation\ of\ the\ river.\n\ Each\ cell\ is\ either\ "---"\ (null)\ or\ a\ 3\ character\ string\ like\ "BF7".\n\ Cells\ are\ separated\ by\ single\ spaces.\n\n\ @return\ the\ string\ representation\n
+numComments=8

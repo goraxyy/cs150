@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ Abstract\ base\ class\ representing\ an\ animal\ in\ the\ river\ ecosystem.\n\ Each\ animal\ has\ a\ sex\ and\ an\ age.\n\n\ @author\ Ali\ Kablanbek\n\ @return\ 2/23/2026\n
+comment1.params=
+comment1.target=Animal()
+comment1.text=\n\ Creates\ an\ animal\ with\ a\ random\ age\ and\ sex.\n\ Age\ is\ bounded\ by\ the\ subclass's\ maximum\ age.\n
+comment2.params=age\ sex
+comment2.target=Animal(int,\ Animal.Sex)
+comment2.text=\n\ Creates\ an\ animal\ with\ the\ specified\ age\ and\ sex.\n\n\ @param\ age\ the\ age\ of\ the\ animal\n\ @param\ sex\ the\ sex\ of\ the\ animal\n
+comment3.params=
+comment3.target=int\ getAge()
+comment3.text=\n\ Returns\ the\ age\ of\ this\ animal.\n\n\ @return\ the\ current\ age\n
+comment4.params=
+comment4.target=Animal.Sex\ getSex()
+comment4.text=\n\ Returns\ the\ sex\ of\ this\ animal.\n\n\ @return\ the\ sex\n
+comment5.params=
+comment5.target=boolean\ maxAge()
+comment5.text=\n\ Returns\ true\ if\ the\ animal's\ age\ has\ reached\ the\ maximum\ for\ its\ species.\n\n\ @return\ true\ if\ at\ max\ age,\ false\ otherwise\n
+comment6.params=
+comment6.target=boolean\ incrAge()
+comment6.text=\n\ If\ the\ current\ age\ is\ less\ than\ the\ maximum,\ increments\ the\ age\ by\ one\n\ and\ returns\ true.\ otherwise,\ leaves\ the\ age\ unchanged\ and\ returns\ false.\n\n\ @return\ true\ if\ age\ was\ incremented,\ false\ if\ already\ at\ max\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ string\ representation\ such\ as\ "BF7"\ for\ a\ 7-year-old\ female\ bear.\n\ Format\:\ [B/F][F/M][age]\n\n\ @return\ string\ representation\ of\ the\ animal\n
+numComments=8
