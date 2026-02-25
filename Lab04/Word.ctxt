@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\n\ Represents\ a\ word\ and\ its\ frequency\ count\ in\ a\ text.\n\ Implements\ Comparable<Word>\ so\ words\ can\ be\ compared\ by\ frequency.\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 2/24/26\n
+comment1.params=word
+comment1.target=Word(java.lang.String)
+comment1.text=\n\ Constructs\ a\ Word\ with\ the\ given\ string\ and\ an\ initial\ frequency\ of\ 1.\n\ @param\ word\ the\ word\ string\n
+comment2.params=
+comment2.target=java.lang.String\ getWord()
+comment2.text=\n\ Returns\ the\ word\ string.\n\ \n\ @return\ the\ word\n
+comment3.params=
+comment3.target=int\ getFrequency()
+comment3.text=\n\ Returns\ the\ current\ frequency\ of\ this\ word.\n\ \n\ @return\ frequency\ count\n
+comment4.params=
+comment4.target=void\ increment()
+comment4.text=\n\ Increments\ the\ frequency\ count\ by\ 1.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ a\ string\ representation\ in\ the\ format\ <word,\ frequency>.\n\ \n\ @return\ formatted\ string\n
+comment6.params=w
+comment6.target=int\ compareTo(Word)
+comment6.text=\n\ Compares\ this\ Word\ to\ another\ Word\ by\ frequency.\n\ Returns\ a\ negative\ integer\ if\ this\ word\ has\ lower\ frequency,\n\ zero\ if\ equal,\ positive\ if\ higher\ frequency.\n\ \n\ @param\ w\ the\ Word\ to\ compare\ to\n\ @return\ difference\ in\ frequencies\ (this.frequency\ -\ w.frequency)\n
+numComments=7

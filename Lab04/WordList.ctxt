@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=WordList
+comment1.params=stopWords\ tokens
+comment1.target=WordList(java.util.ArrayList,\ java.lang.String[])
+comment1.text=\n\ Constructs\ a\ WordList\ from\ an\ array\ of\ tokens,\ filtering\ out\ stop\ words.\n\ Each\ unique,\ non-stop-word\ token\ is\ stored\ as\ a\ Word\ with\ its\ frequency.\n\n\ @param\ stopWords\ list\ of\ stop\ words\ to\ exclude\n\ @param\ tokens\ \ \ \ \ array\ of\ word\ tokens\ from\ the\ text\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getWordFrequency()
+comment2.text=\n\ Returns\ the\ list\ of\ Words\ with\ frequencies.\n\ @return\ wordFrequency\ ArrayList\n
+comment3.params=w
+comment3.target=int\ search(java.lang.String)
+comment3.text=\n\ Searches\ for\ a\ word\ string\ in\ the\ wordFrequency\ list.\n\ @param\ w\ the\ word\ string\ to\ search\ for\n\ @return\ the\ index\ of\ the\ word\ if\ found,\ or\ -1\ if\ not\ found\n
+comment4.params=
+comment4.target=Word\ getMostFrequent()
+comment4.text=\n\ Finds\ and\ returns\ the\ most\ frequent\ word\ in\ the\ list.\n\ If\ the\ list\ is\ empty,\ returns\ null.\n\ @return\ the\ Word\ with\ the\ highest\ frequency\n
+comment5.params=k
+comment5.target=Word[]\ topKMostFrequent(int)
+comment5.text=\n\ Returns\ the\ top\ k\ most\ frequent\ words\ without\ sorting\ the\ full\ list.\n\ Uses\ a\ selection-style\ approach\:\ repeatedly\ finds\ the\ next\ highest\n\ frequency\ word\ that\ hasn't\ been\ selected\ yet.\n\n\ @param\ k\ the\ number\ of\ top\ words\ to\ retrieve\n\ @return\ an\ array\ of\ the\ k\ most\ frequent\ Words,\ in\ descending\ order\n
+comment6.params=word\ stopWords
+comment6.target=boolean\ isStopWord(java.lang.String,\ java.util.ArrayList)
+comment6.text=\n\ Checks\ whether\ a\ given\ word\ is\ in\ the\ stop\ words\ list.\n\ @param\ word\ \ \ \ \ \ the\ word\ to\ check\n\ @param\ stopWords\ the\ list\ of\ stop\ words\n\ @return\ true\ if\ the\ word\ is\ a\ stop\ word,\ false\ otherwise\n
+numComments=7

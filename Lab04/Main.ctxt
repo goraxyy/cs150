@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Main\ class\ that\ orchestrates\ reading\ Pride\ and\ Prejudice,\ building\ a\ WordList,\n\ and\ outputting\ results\ to\ console\ and\ file.\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 2/24/26\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
