@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Lab05
+comment0.text=\n\ Main\ class\ for\ Lab\ 5.\ Reads\ stopwords.txt\ and\ Pride_and_Prejudice.txt,\n\ builds\ a\ WordList,\ writes\ results\ to\ Lab05.txt,\ and\ prints\ a\ console\ summary.\n\n\ Console\ output\:\ \n\ \ \ -\ Total\ unique\ content\ words\ and\ top\ 5\ most\ frequent\ (Lab\ 4)\n\ \ \ -\ Words\ excluded\ by\ stop-word\ filter\n\ \ \ -\ Distinct\ words\ of\ length\ <\=\ 3\n\ \ \ -\ Most\ frequent\ word\ starting\ with\ 'p'\n\ \ \ -\ Longest\ word\ starting\ with\ 'p'\n\ \ \ \n\ @author\ Ali\ Kablanbek\n\ @version\ 3/3/26\n\ \ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
