@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ExpressionEvaluator
+comment0.text=\n\ Defines\ the\ contract\ for\ parsing\ and\ evaluating\ arithmetic\ expressions\n\ in\ both\ postfix\ and\ infix\ notation.\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 4/7/26\n
+comment1.params=expression
+comment1.target=int\ evaluatePostfix(java.lang.String)
+comment1.text=\n\ Evaluates\ a\ space-separated\ postfix\ expression\ and\ returns\ the\ result.\n\n\ @param\ \ expression\ \ the\ postfix\ expression\ to\ evaluate\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ the\ integer\ result\n\ @throws\ ExpressionFormatException\ \ if\ the\ expression\ is\ invalid\ or\ causes\ division\ by\ zero\n
+comment2.params=expression
+comment2.target=java.lang.String\ simpleInfixToPostfix(java.lang.String)
+comment2.text=\n\ Converts\ a\ simple\ infix\ expression\ (no\ parentheses\ or\ exponentiation)\ to\ postfix.\n\n\ @param\ \ expression\ \ the\ simple\ infix\ expression\ to\ convert\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ the\ equivalent\ postfix\ expression\n\ @throws\ ExpressionFormatException\ \ if\ the\ expression\ is\ invalid\ or\ contains\ disallowed\ tokens\n
+comment3.params=expression
+comment3.target=java.lang.String\ infixToPostfix(java.lang.String)
+comment3.text=\n\ Converts\ a\ full\ infix\ expression\ (with\ parentheses\ and\ exponentiation)\ to\ postfix.\n\n\ @param\ \ expression\ \ the\ infix\ expression\ to\ convert\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ the\ equivalent\ postfix\ expression\n\ @throws\ ExpressionFormatException\ \ if\ the\ expression\ is\ invalid\n
+comment4.params=expression
+comment4.target=int\ evaluateInfix(java.lang.String)
+comment4.text=\n\ Evaluates\ a\ full\ infix\ expression\ and\ returns\ the\ integer\ result.\n\n\ @param\ \ expression\ \ the\ infix\ expression\ to\ evaluate\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ the\ integer\ result\n\ @throws\ ExpressionFormatException\ \ if\ the\ expression\ is\ invalid\ or\ causes\ division\ by\ zero\n
+numComments=5

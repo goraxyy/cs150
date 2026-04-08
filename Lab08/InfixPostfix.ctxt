@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=InfixPostfix
+comment0.text=\n\ Provides\ static\ methods\ for\ evaluating\ and\ converting\ arithmetic\ expressions\n\ in\ postfix\ (RPN)\ and\ infix\ notation.\n\ All\ tokens\ in\ an\ expression\ must\ be\ separated\ by\ single\ spaces.\n\ Supported\ operators\ are\:\ +\ -\ *\ /\ ^\ (\ )\n\ Operands\ must\ be\ integers.\ The\ ^\ operator\ is\ right-associative.\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 4/7/26\n
+comment1.params=op
+comment1.target=int\ precedence(java.lang.String)
+comment1.text=\n\ Returns\ the\ precedence\ level\ of\ an\ operator.\n\ Returns\ -1\ if\ the\ token\ is\ not\ a\ recognised\ operator.\n\n\ @param\ op\ the\ operator\ token\n\ @return\ precedence\ level\ (1,\ 2\ or\ 3)\ or\ -1\ if\ not\ an\ operator\n
+comment2.params=token
+comment2.target=boolean\ isOperator(java.lang.String)
+comment2.text=\n\ Returns\ true\ if\ the\ token\ is\ one\ of\ the\ five\ supported\ operators.\n\n\ @param\ token\ the\ token\ to\ test\n\ @return\ true\ if\ the\ token\ is\ +\ -\ *\ /\ or\ ^\n
+comment3.params=token
+comment3.target=boolean\ isInteger(java.lang.String)
+comment3.text=\n\ Returns\ true\ if\ the\ token\ can\ be\ parsed\ as\ an\ integer.\n\n\ @param\ token\ the\ token\ to\ test\n\ @return\ true\ if\ the\ token\ is\ a\ valid\ integer\ literal\n
+comment4.params=sb\ token
+comment4.target=void\ appendToken(java.lang.StringBuilder,\ java.lang.String)
+comment4.text=\n\ Appends\ a\ token\ to\ the\ output\ buffer,\ inserting\ a\ leading\ space\ when\ needed.\n\n\ @param\ sb\ \ \ \ the\ output\ buffer\n\ @param\ token\ the\ token\ to\ append\n
+comment5.params=expression
+comment5.target=int\ evaluatePostfix(java.lang.String)
+comment5.text=\n\ Evaluates\ a\ postfix\ expression\ and\ returns\ the\ integer\ result.\n\ Tokens\ must\ be\ separated\ by\ spaces.\n\ Example\:\ "5\ 1\ 2\ +\ 4\ *\ +\ 3\ -"\ evaluates\ to\ 14.\n\n\ @param\ expression\ space-separated\ postfix\ expression\n\ @return\ integer\ result\ of\ the\ expression\n\ @throws\ ExpressionFormatException\ if\ the\ expression\ contains\ invalid\ tokens,\n\ \ \ \ \ \ \ \ \ has\ the\ wrong\ number\ of\ operands\ or\ causes\ division\ by\ zero\n
+comment6.params=expression
+comment6.target=java.lang.String\ simpleInfixToPostfix(java.lang.String)
+comment6.text=\n\ Converts\ a\ simple\ infix\ expression\ to\ postfix\ notation.\n\ Parentheses\ and\ the\ ^\ operator\ are\ not\ allowed.\n\ Tokens\ must\ be\ separated\ by\ spaces.\n\ Example\:\ "3\ +\ 4\ *\ 5"\ converts\ to\ "3\ 4\ 5\ *\ +".\n\n\ @param\ expression\ space-separated\ simple\ infix\ expression\n\ @return\ equivalent\ postfix\ expression\n\ @throws\ ExpressionFormatException\ if\ the\ expression\ is\ invalid\ or\ contains\n\ \ \ \ \ \ \ \ \ parentheses\ or\ exponentiation\n
+comment7.params=expression
+comment7.target=java.lang.String\ infixToPostfix(java.lang.String)
+comment7.text=\n\ Converts\ a\ full\ infix\ expression\ to\ postfix\ notation\ using\ the\ Shunting-Yard\n\ algorithm.\ Handles\ +\ -\ *\ /\ ^\ and\ parentheses.\n\ The\ ^\ operator\ is\ right-associative.\n\ Tokens\ must\ be\ separated\ by\ spaces.\n\ Example\:\ "(\ 3\ +\ 4\ )\ *\ 5"\ converts\ to\ "3\ 4\ +\ 5\ *".\n\n\ @param\ expression\ space-separated\ infix\ expression\n\ @return\ equivalent\ postfix\ expression\n\ @throws\ ExpressionFormatException\ if\ the\ expression\ has\ mismatched\ parentheses,\n\ \ \ \ \ \ \ \ \ unknown\ tokens\ or\ incorrect\ operand\ placement\n
+comment8.params=expression
+comment8.target=int\ evaluateInfix(java.lang.String)
+comment8.text=\n\ Evaluates\ a\ full\ infix\ expression\ by\ converting\ it\ to\ postfix\ first\n\ then\ evaluating\ the\ result.\n\ Tokens\ must\ be\ separated\ by\ spaces.\n\n\ @param\ expression\ space-separated\ infix\ expression\n\ @return\ integer\ result\ of\ the\ expression\n\ @throws\ ExpressionFormatException\ if\ conversion\ or\ evaluation\ fails\n
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+comment9.text=\n\ Reads\ infix\ expressions\ line\ by\ line\ from\ an\ input\ file,\ evaluates\ each\ one\n\ with\ evaluateInfix()\ and\ writes\ the\ results\ to\ an\ output\ file.\n\ Each\ successful\ output\ line\ takes\ the\ form\:\ {@code\ expression\ \=\ result}\n\ If\ a\ line\ causes\ an\ ExpressionFormatException\ the\ output\ line\ is\:\n\ {@code\ expression\ --\ ERROR\:\ message}\n\ Usage\:\ java\ InfixPostfix\ inputFile\ outputFile\n\n\ @param\ args\ args[0]\ is\ the\ input\ file\ path\ and\ args[1]\ is\ the\ output\ file\ path\n
+numComments=10
