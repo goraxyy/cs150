@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BinarySearchTree
+comment0.text=\n\ A\ generic\ binary\ search\ tree\ extending\ BinaryTree.\n\ Requires\ that\ E\ implements\ Comparable\ for\ natural\ ordering.\n\n\ @param\ <E>\ the\ type\ of\ elements\ which\ must\ be\ Comparable\n\ @author\ Ali\ Kablanbek\n\ @version\ 4/21/26\n
+comment1.params=e
+comment1.target=boolean\ insert(java.lang.Comparable)
+comment1.text=\n\ Inserts\ the\ element\ into\ the\ BST\ using\ natural\ ordering.\n\ Duplicates\ are\ rejected.\n\n\ @param\ e\ the\ element\ to\ insert\n\ @return\ true\ if\ inserted\ successfully\n
+comment2.params=node\ e
+comment2.target=boolean\ insertHelper(BinaryNode,\ java.lang.Comparable)
+comment2.text=\n\ Recursively\ finds\ the\ correct\ position\ and\ inserts\ the\ element.\n\n\ @param\ node\ the\ current\ node\n\ @param\ e\ \ \ \ the\ element\ to\ insert\n\ @return\ true\ if\ inserted\n
+comment3.params=e
+comment3.target=boolean\ contains(java.lang.Comparable)
+comment3.text=\n\ Efficiently\ searches\ for\ an\ element\ using\ BST\ ordering.\n\ Overrides\ the\ linear\ search\ from\ BinaryTree.\n\n\ @param\ e\ the\ element\ to\ find\n\ @return\ true\ if\ the\ element\ is\ in\ the\ tree\n
+comment4.params=node\ e
+comment4.target=boolean\ binarySearch(BinaryNode,\ java.lang.Comparable)
+comment4.text=\n\ Recursively\ performs\ binary\ search\ using\ natural\ ordering.\n\n\ @param\ node\ the\ current\ node\n\ @param\ e\ \ \ \ the\ target\ element\n\ @return\ true\ if\ found\n
+numComments=5
