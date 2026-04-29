@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=WeightedElement
+comment0.text=\n\ A\ generic\ container\ pairing\ an\ element\ of\ type\ E\ with\ a\ weight\ of\ type\ W.\n\ W\ must\ be\ Comparable\ so\ that\ two\ WeightedElements\ can\ be\ ordered\ by\ weight.\n\ This\ class\ implements\ Comparable\ by\ delegating\ entirely\ to\ W's\ compareTo\ method.\n\n\ @param\ <E>\ the\ type\ of\ the\ element\ stored\n\ @param\ <W>\ the\ type\ of\ the\ weight,\ must\ itself\ be\ Comparable\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 4/28\n
+comment1.params=element\ weight
+comment1.target=WeightedElement(java.lang.Object,\ java.lang.Comparable)
+comment1.text=\n\ Constructs\ a\ WeightedElement\ with\ the\ given\ element\ and\ weight.\n\n\ @param\ element\ the\ element\ to\ store\n\ @param\ weight\ \ the\ weight\ associated\ with\ this\ element\n
+comment2.params=
+comment2.target=java.lang.Object\ getElement()
+comment2.text=\n\ Returns\ the\ element\ stored\ in\ this\ WeightedElement.\n\n\ @return\ the\ element\n
+comment3.params=
+comment3.target=java.lang.Comparable\ getWeight()
+comment3.text=\n\ Returns\ the\ weight\ stored\ in\ this\ WeightedElement.\n\n\ @return\ the\ weight\n
+comment4.params=other
+comment4.target=int\ compareTo(WeightedElement)
+comment4.text=\n\ Compares\ this\ WeightedElement\ to\ another\ by\ weight\ only.\n\ Relies\ on\ W's\ compareTo\ so\ that\ the\ ordering\ matches\ W's\ natural\ ordering.\n\n\ @param\ other\ the\ other\ WeightedElement\ to\ compare\ against\n\ @return\ a\ negative\ integer\ if\ this\ weight\ is\ less\ than\ other's\ weight,\ zero\ if\ equal,\ a\ positive\ integer\ if\ greater\n
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\n\ Two\ WeightedElements\ are\ equal\ when\ both\ their\ element\ and\ weight\ are\ equal.\n\ This\ is\ needed\ for\ correct\ HashMap\ key\ behavior\ in\ MyClassicPriorityQueue.\n
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\n\ Hash\ code\ is\ derived\ from\ both\ element\ and\ weight\ to\ be\ consistent\ with\ equals.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ human-readable\ string\ in\ the\ form\ (element,\ weight).\n
+numComments=8

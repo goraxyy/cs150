@@ -1,0 +1,123 @@
+Project documentation
+<---- javadoc command: ---->
+javadoc
+-sourcepath
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10
+-source
+21
+-classpath
+/Applications/BlueJ.app/Contents/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Java/javafx-graphics-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-base-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-web-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-controls-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-swing-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-fxml-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-media-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/junit-4.12.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-params-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-api-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-suite-api-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-vintage-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-engine-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-launcher-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-commons-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/hamcrest-core-1.3.jar:/Applications/BlueJ.app/Contents/Java/opentest4j-1.2.0.jar:/Applications/BlueJ.app/Contents/Java/lang-stride.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.base.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.controls.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.fxml.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.graphics.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.media.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.properties.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.swing.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.web.jar:/Users/kablanbekali/Desktop/Classes/Spring/Lab10
+-d
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-doctitle
+Lab10
+-windowtitle
+Lab10
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/21/docs/api/
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/MyPriorityQueue.java
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/MyClassicPriorityQueue.java
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/WeightedElement.java
+<---- end of javadoc command ---->
+Loading source file /Users/kablanbekali/Desktop/Classes/Spring/Lab10/MyPriorityQueue.java...
+Loading source file /Users/kablanbekali/Desktop/Classes/Spring/Lab10/MyClassicPriorityQueue.java...
+Loading source file /Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java...
+Loading source file /Users/kablanbekali/Desktop/Classes/Spring/Lab10/WeightedElement.java...
+Constructing Javadoc information...
+Building index for all the packages and classes...
+Standard Doclet version 21.0.6+7-LTS
+Building tree for all the packages and classes...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/MyClassicPriorityQueue.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/MyPriorityQueue.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/PriorityQueueTest.html...
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:11: warning: invalid input: '<'
+ * using WeightedElement<Integer,Integer> and WeightedElement<String,String>.
+                        ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:11: warning: invalid input: '<'
+ * using WeightedElement<Integer,Integer> and WeightedElement<String,String>.
+                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:409: warning: invalid input: '<'
+    /** decreaseKey should work correctly for WeightedElement<Integer,Integer>. */
+                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:467: warning: invalid input: '<'
+    /** decreaseKey on WeightedElement<String,String> with a larger weight must return null. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:426: warning: invalid input: '<'
+    /** Poll order for WeightedElement<Integer,Integer> in classic queue must match oracle. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:446: warning: invalid input: '<'
+    /** Poll order for WeightedElement<String,String> in classic queue must match oracle. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:162: warning: invalid input: '<'
+    /** Poll order by weight must match the oracle for WeightedElement<Integer,Integer>. */
+                                                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:198: warning: invalid input: '<'
+    /** Poll order by String weight must match the oracle for WeightedElement<String,String>. */
+                                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:219: warning: invalid input: '<'
+    /** Single-element WeightedElement<String,String> edge case. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:162: warning: invalid input: '<'
+    /** Poll order by weight must match the oracle for WeightedElement<Integer,Integer>. */
+                                                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:198: warning: invalid input: '<'
+    /** Poll order by String weight must match the oracle for WeightedElement<String,String>. */
+                                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:219: warning: invalid input: '<'
+    /** Single-element WeightedElement<String,String> edge case. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:409: warning: invalid input: '<'
+    /** decreaseKey should work correctly for WeightedElement<Integer,Integer>. */
+                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:426: warning: invalid input: '<'
+    /** Poll order for WeightedElement<Integer,Integer> in classic queue must match oracle. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:446: warning: invalid input: '<'
+    /** Poll order for WeightedElement<String,String> in classic queue must match oracle. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:467: warning: invalid input: '<'
+    /** decreaseKey on WeightedElement<String,String> with a larger weight must return null. */
+                                      ^
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/WeightedElement.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/package-summary.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/package-tree.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/overview-tree.html...
+Building index for all classes...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/allclasses-index.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/allpackages-index.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/index-all.html...
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:409: warning: invalid input: '<'
+    /** decreaseKey should work correctly for WeightedElement<Integer,Integer>. */
+                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:467: warning: invalid input: '<'
+    /** decreaseKey on WeightedElement<String,String> with a larger weight must return null. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:426: warning: invalid input: '<'
+    /** Poll order for WeightedElement<Integer,Integer> in classic queue must match oracle. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:446: warning: invalid input: '<'
+    /** Poll order for WeightedElement<String,String> in classic queue must match oracle. */
+                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:162: warning: invalid input: '<'
+    /** Poll order by weight must match the oracle for WeightedElement<Integer,Integer>. */
+                                                                      ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:198: warning: invalid input: '<'
+    /** Poll order by String weight must match the oracle for WeightedElement<String,String>. */
+                                                                             ^
+/Users/kablanbekali/Desktop/Classes/Spring/Lab10/PriorityQueueTest.java:219: warning: invalid input: '<'
+    /** Single-element WeightedElement<String,String> edge case. */
+                                      ^
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/search.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/index.html...
+Generating /Users/kablanbekali/Desktop/Classes/Spring/Lab10/doc/help-doc.html...
+23 warnings

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyClassicPriorityQueue
+comment0.text=\n\ A\ min-heap\ priority\ queue\ that\ extends\ MyPriorityQueue\ by\ maintaining\ a\n\ private\ HashMap\ from\ each\ element\ to\ its\ current\ index\ in\ the\ heap.\n\ This\ map\ enables\ O(log\ n)\ decreaseKey\ because\ the\ index\ of\ any\ element\n\ can\ be\ looked\ up\ in\ O(1)\ rather\ than\ scanned\ for\ linearly.\n\n\ bubbleUp\ and\ siftDown\ are\ inherited\ unchanged\ because\ they\ operate\ only\n\ through\ swap,\ which\ is\ overridden\ here\ to\ keep\ the\ map\ in\ sync\ via\n\ Java's\ dynamic\ dispatch.\n\n\ Assumes\ all\ inserted\ elements\ are\ unique\ (HashMap\ requires\ unique\ keys).\n\n\ @param\ <T>\ the\ element\ type,\ must\ be\ Comparable\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 4/28\n
+comment1.params=
+comment1.target=MyClassicPriorityQueue()
+comment1.text=\n\ Constructs\ an\ empty\ classic\ priority\ queue.\n
+comment2.params=t
+comment2.target=boolean\ add(java.lang.Comparable)
+comment2.text=\n\ Inserts\ t\ into\ the\ heap\ and\ records\ its\ starting\ index\ in\ the\ map\n\ before\ bubbling\ up\ to\ the\ correct\ position.\n\n\ @param\ t\ the\ element\ to\ insert\n\ @return\ true\ always,\ indicating\ the\ element\ was\ added\n
+comment3.params=
+comment3.target=java.lang.Comparable\ poll()
+comment3.text=\n\ Removes\ and\ returns\ the\ minimal\ element.\ The\ last\ element\ is\ moved\n\ to\ the\ root\ position\ and\ its\ map\ entry\ is\ updated\ before\ sifting\ down.\n\ The\ removed\ root\ is\ deleted\ from\ the\ map.\n\n\ @return\ the\ minimal\ element,\ or\ null\ if\ the\ queue\ is\ empty\n
+comment4.params=i\ j
+comment4.target=void\ swap(int,\ int)
+comment4.text=\n\ Swaps\ the\ elements\ at\ positions\ i\ and\ j\ and\ updates\ both\ of\ their\n\ map\ entries\ so\ the\ map\ always\ reflects\ the\ current\ heap\ layout.\n\n\ @param\ i\ the\ first\ index\n\ @param\ j\ the\ second\ index\n
+comment5.params=target\ smallerValue
+comment5.target=java.lang.Comparable\ decreaseKey(java.lang.Comparable,\ java.lang.Comparable)
+comment5.text=\n\ Decreases\ the\ value\ of\ target\ to\ smallerValue\ and\ returns\ the\ old\ value.\n\ Uses\ the\ map\ to\ locate\ target\ in\ O(1)\ then\ bubbles\ up\ from\ that\ index\n\ to\ restore\ the\ heap\ property.\n\n\ Returns\ null\ without\ making\ any\ changes\ if\ target\ is\ not\ present\ in\ the\n\ queue\ or\ if\ smallerValue\ is\ not\ strictly\ smaller\ than\ target.\n\n\ @param\ target\ \ \ \ \ \ \ the\ element\ whose\ value\ should\ be\ decreased\n\ @param\ smallerValue\ the\ new\ smaller\ value\ to\ replace\ target\ with\n\ @return\ the\ old\ value\ of\ target,\ or\ null\ if\ no\ change\ was\ made\n
+comment6.params=
+comment6.target=java.util.HashMap\ getIndexMap()
+comment6.text=\n\ Returns\ the\ internal\ index\ map\ for\ unit\ testing\ purposes.\n\n\ @return\ the\ HashMap\ mapping\ each\ element\ to\ its\ heap\ index\n
+numComments=7
