@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=CustomLinkedList
+comment0.text=\n\ Generic\ doubly-linked\ list.\ Backbone\ for\ CustomStack\ and\ CustomQueue.\n\ Both\ addFront\ and\ addBack\ are\ O(1).\n\ @author\ Ali\ Kablanbek\n\ @version\ 5/15\n
+comment1.params=data
+comment1.target=void\ addFront(java.lang.Object)
+comment10.params=
+comment10.target=java.lang.Object\ next()
+comment2.params=data
+comment2.target=void\ addBack(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.Object\ removeFront()
+comment4.params=
+comment4.target=java.lang.Object\ removeBack()
+comment5.params=index
+comment5.target=java.lang.Object\ get(int)
+comment6.params=
+comment6.target=int\ size()
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment8.params=
+comment8.target=java.util.Iterator\ iterator()
+comment9.params=
+comment9.target=boolean\ hasNext()
+numComments=11
