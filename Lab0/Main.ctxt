@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ This\ class\ prints\ all\ the\ arguments\ passed\ to\ it\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 1.26.26\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ entry\ point\ that\ outputs\ each\ command-line\ argument\ on\ a\ new\ line\n\ \n\ @param\ args\ arguments\ to\ print\n
+numComments=2

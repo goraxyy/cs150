@@ -1,0 +1,10 @@
+hey
+hey
+me
+me
+
+
+=============================================
+Line Count: 2
+Word Count: 2
+Char Count: 5

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AVLNode
+comment0.text=\n\ A\ node\ for\ AVL\ trees\ storing\ extra\ fields\ for\ height\ and\ parent.\n\n\ @param\ <E>\ the\ type\ of\ element\ stored\ in\ the\ node\n\ @author\ Ali\ Kablanbek\n\ @version\ 4/21/26\n
+comment1.params=data
+comment1.target=AVLNode(java.lang.Object)
+comment1.text=\n\ Constructs\ an\ AVLNode\ with\ the\ given\ data.\n\ Default\ height\ is\ 0\ and\ parent\ is\ null.\n\n\ @param\ data\ the\ element\ to\ store\n
+comment2.params=
+comment2.target=int\ getHeight()
+comment2.text=Returns\ the\ height\ of\ this\ node.
+comment3.params=height
+comment3.target=void\ setHeight(int)
+comment3.text=Sets\ the\ height\ of\ this\ node.
+comment4.params=
+comment4.target=AVLNode\ getParent()
+comment4.text=Returns\ the\ parent\ of\ this\ node.
+comment5.params=parent
+comment5.target=void\ setParent(AVLNode)
+comment5.text=Sets\ the\ parent\ of\ this\ node.
+numComments=6

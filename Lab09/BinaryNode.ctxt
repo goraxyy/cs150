@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BinaryNode
+comment0.text=\n\ Represents\ a\ node\ in\ a\ binary\ tree.\n\n\ @param\ <E>\ the\ type\ of\ element\ stored\ in\ the\ node\n\ @author\ Ali\ Kablanbek\n\ @version\ 4/21/26\n
+comment1.params=data
+comment1.target=BinaryNode(java.lang.Object)
+comment1.text=\n\ Constructs\ a\ BinaryNode\ with\ the\ given\ data.\n\n\ @param\ data\ the\ element\ to\ store\n
+comment2.params=
+comment2.target=java.lang.Object\ getData()
+comment2.text=Returns\ the\ data\ stored\ in\ this\ node.
+comment3.params=data
+comment3.target=void\ setData(java.lang.Object)
+comment3.text=Sets\ the\ data\ for\ this\ node.
+comment4.params=
+comment4.target=BinaryNode\ getLeft()
+comment4.text=Returns\ the\ left\ child.
+comment5.params=left
+comment5.target=void\ setLeft(BinaryNode)
+comment5.text=Sets\ the\ left\ child.
+comment6.params=
+comment6.target=BinaryNode\ getRight()
+comment6.text=Returns\ the\ right\ child.
+comment7.params=right
+comment7.target=void\ setRight(BinaryNode)
+comment7.text=Sets\ the\ right\ child.
+numComments=8

@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=WordList
+comment0.text=\n\ Holds\ a\ list\ of\ unique\ Words\ built\ from\ a\ raw\ token\ array,\ with\ stop\ words\ excluded.\n\ Lab\ 5\ adds\ three\ static\ stream-based\ methods\:\ distinctWordsCount(),\n\ shortWordsCount(),\ and\ mostFrequentByLetter().\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 3/3/26\n
+comment1.params=stopWords\ tokens
+comment1.target=WordList(java.util.ArrayList,\ java.lang.String[])
+comment1.text=\n\ Builds\ the\ WordList\ from\ a\ token\ array.\n\ Each\ token\ is\ skipped\ if\ it\ is\ empty\ or\ a\ stop\ word;\ otherwise\ it\ is\n\ added\ as\ a\ new\ Word\ or\ its\ existing\ entry\ is\ incremented.\n\n\ @param\ stopWords\ function\ words\ to\ exclude\ (may\ be\ mixed-case)\n\ @param\ tokens\ \ \ \ lowercase\ word\ tokens\ from\ the\ source\ text\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getWordFrequency()
+comment2.text=@return\ the\ full\ list\ of\ Words\ in\ insertion\ order
+comment3.params=w
+comment3.target=int\ search(java.lang.String)
+comment3.text=\n\ Linear\ search\ for\ a\ word\ string.\n\ @return\ index\ of\ the\ matching\ Word,\ or\ -1\ if\ not\ found\n
+comment4.params=
+comment4.target=Word\ getMostFrequent()
+comment4.text=\n\ Returns\ the\ most\ frequent\ Word\ using\ a\ single\ linear\ scan\ with\ compareTo().\n\ @return\ the\ highest-frequency\ Word,\ or\ null\ if\ the\ list\ is\ empty\n
+comment5.params=k
+comment5.target=Word[]\ topKMostFrequent(int)
+comment5.text=\n\ Returns\ the\ top\ k\ most\ frequent\ Words\ in\ descending\ order\ without\ sorting.\n\ Uses\ repeated\ selection\ with\ a\ boolean\ used-flag\ array\ (O(k*n)).\n\ If\ k\ >\ list\ size,\ the\ array\ is\ capped\ at\ list\ size\ with\ no\ null\ padding.\n\n\ @param\ k\ number\ of\ top\ words\ to\ return\n
+comment6.params=tokens
+comment6.target=long\ distinctWordsCount(java.lang.String[])
+comment6.text=\n\ Counts\ the\ number\ of\ distinct,\ non-empty\ strings\ in\ the\ token\ array.\n\ Stream\ pipeline\:\ filter\ empty\ \u2192\ distinct\ \u2192\ count.\n\n\ @param\ tokens\ raw\ token\ array\ from\ String.split()\n\ @return\ number\ of\ distinct\ non-empty\ tokens\n
+comment7.params=tokens\ threshold
+comment7.target=long\ shortWordsCount(java.lang.String[],\ int)
+comment7.text=\n\ Counts\ distinct\ strings\ of\ length\ at\ most\ threshold.\n\ Stream\ pipeline\:\ filter\ empty\ \u2192\ filter\ by\ length\ \u2192\ distinct\ \u2192\ count.\n\n\ @param\ tokens\ \ \ \ raw\ token\ array\ from\ String.split()\n\ @param\ threshold\ maximum\ word\ length\ to\ include\ (must\ be\ >\=\ 0)\n\ @throws\ \ \ \ \ \ \ \ \ \ \ IllegalArgumentException\ if\ threshold\ is\ negative\n
+comment8.params=wl\ letter
+comment8.target=Word\ mostFrequentByLetter(WordList,\ char)
+comment8.text=\n\ Returns\ the\ most\ frequent\ Word\ starting\ with\ letter\ using\ filter()\ and\ max().\n\ orElse(null)\ handles\ the\ case\ where\ no\ matching\ word\ exists.\n\n\ @param\ wl\ \ \ \ \ the\ WordList\ to\ search\n\ @param\ letter\ starting\ character\ to\ filter\ on\ (case-sensitive)\n\ @return\ the\ most\ frequent\ matching\ Word,\ or\ null\ if\ none\ found\n
+comment9.params=word\ stopWords
+comment9.target=boolean\ isStopWord(java.lang.String,\ java.util.ArrayList)
+comment9.text=\n\ Checks\ whether\ word\ is\ in\ stopWords\ using\ case-insensitive\ comparison.\n\ equalsIgnoreCase()\ is\ needed\ because\ stopwords.txt\ has\ mixed-case\ entries\n\ (e.g.\ "But",\ "So")\ while\ tokens\ are\ already\ lowercased.\n
+numComments=10

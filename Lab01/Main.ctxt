@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Program\ entry\ point;\ processes\ input\ until\ a\ blank\ line\ is\ entered\n\n\ @param\ args\ Command-line\ arguments\ (not\ used)\n\ @throws\ Exception\ If\ an\ I/O\ error\ occurs\n
+numComments=2

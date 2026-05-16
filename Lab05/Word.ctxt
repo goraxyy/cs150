@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\n\ Represents\ a\ word\ and\ its\ frequency\ count\ in\ a\ text.\n\ Implements\ Comparable<Word>\ ordered\ by\ frequency\ so\ collections\n\ can\ be\ ranked\ from\ least\ to\ most\ frequent.\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 3/3/26\n
+comment1.params=word
+comment1.target=Word(java.lang.String)
+comment1.text=\n\ Creates\ a\ Word\ with\ initial\ frequency\ 1.\n\ @param\ word\ the\ word\ string\ (should\ be\ lowercase)\n
+comment2.params=
+comment2.target=java.lang.String\ getWord()
+comment2.text=@return\ the\ word\ string
+comment3.params=
+comment3.target=int\ getFrequency()
+comment3.text=@return\ how\ many\ times\ this\ word\ has\ appeared\ (always\ >\=\ 1)
+comment4.params=
+comment4.target=void\ increment()
+comment4.text=Records\ one\ additional\ occurrence\ of\ this\ word.
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ the\ word\ in\ the\ format\ {@code\ <word,\ frequency>}.\n\ Example\:\ {@code\ <chapter,\ 61>}\n
+comment6.params=w
+comment6.target=int\ compareTo(Word)
+comment6.text=\n\ Compares\ by\ frequency\:\ negative\ if\ this\ <\ w,\ 0\ if\ equal,\ positive\ if\ this\ >\ w.\n\ Equivalent\ to\ this.frequency\ -\ w.frequency.\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SortableNode
+comment0.text=\n\ A\ generic\ linked\ list\ Node\ that\ extends\ {@link\ Node}\ with\ sorting\ capability.\n\ Requires\ {@code\ E}\ to\ implement\ {@code\ Comparable<E>}\ so\ that\ elements\n\ can\ be\ compared\ and\ arranged\ in\ natural\ ascending\ order.\n\n\ @param\ <E>\ the\ element\ type;\ must\ implement\ {@code\ Comparable<E>}\n\ @author\ Ali\ Kablanbek\n\ @version\ 3/31/26\n
+comment1.params=d
+comment1.target=SortableNode(java.lang.Comparable)
+comment1.text=\n\ Constructs\ a\ single-element\ SortableNode\ with\ no\ successor.\n\n\ @param\ d\ the\ value\ to\ store\ in\ this\ node\n
+comment2.params=list
+comment2.target=SortableNode(java.util.ArrayList)
+comment2.text=\n\ Constructs\ a\ SortableNode\ linked\ list\ from\ an\ ArrayList,\n\ making\ this\ node\ the\ head.\n\n\ @param\ list\ the\ ArrayList\ whose\ elements\ populate\ the\ linked\ list,\n\ \ \ \ \ \ \ \ \ \ \ \ \ in\ order\ from\ head\ to\ tail\n\ @throws\ IllegalArgumentException\ if\ {@code\ list}\ is\ null\ or\ empty\n
+comment3.params=
+comment3.target=void\ sort()
+comment3.text=\n\ Sorts\ the\ linked\ list\ in\ place\ in\ ascending\ natural\ order.\n\ Uses\ bubble\ sort(hope\ its\ ok)\:\ each\ pass\ compares\ adjacent\ node\ values\ and\n\ swaps\ them\ if\ the\ left\ value\ is\ greater\ than\ the\ right.\n\ Passes\ repeat\ until\ a\ complete\ pass\ produces\ no\ swaps,\n\ indicating\ the\ list\ is\ fully\ sorted.\n\ Duplicate\ values\ are\ preserved.\n
+comment4.params=
+comment4.target=void\ uniqueSort()
+comment4.text=\n\ Sorts\ the\ list\ and\ removes\ all\ duplicate\ values\ so\ that\n\ each\ distinct\ value\ appears\ exactly\ once.\n\ Calls\ {@link\ \#sort()}\ first,\ which\ guarantees\ that\ duplicate\ values\n\ are\ adjacent;\ then\ performs\ a\ single\ O(n)\ pass\ removing\ any\ node\n\ whose\ value\ equals\ its\ successor's\ value.\n
+numComments=5

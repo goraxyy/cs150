@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\n\ Generic\ Tree\ interface\ defining\ common\ tree\ operations.\n\n\ @param\ <E>\ the\ type\ of\ elements\ stored\ in\ the\ tree\n\ @author\ ALi\ Kablanbek\n\ @version\ 4/21/26\n
+comment1.params=e
+comment1.target=boolean\ insert(java.lang.Object)
+comment1.text=\n\ Inserts\ the\ given\ element\ into\ the\ tree.\n\ Duplicate\ keys\ are\ not\ allowed.\n\n\ @param\ e\ the\ element\ to\ insert\n\ @return\ true\ if\ insertion\ was\ successful\n
+comment2.params=e
+comment2.target=boolean\ contains(java.lang.Object)
+comment2.text=\n\ Checks\ whether\ the\ tree\ contains\ the\ given\ element.\n\n\ @param\ e\ the\ element\ to\ search\ for\n\ @return\ true\ if\ the\ element\ is\ found\n
+comment3.params=
+comment3.target=java.lang.String\ preOrderString()
+comment3.text=\n\ Returns\ a\ string\ of\ elements\ using\ preorder\ traversal.\n\n\ @return\ preorder\ string\ representation\n
+comment4.params=
+comment4.target=java.lang.String\ postOrderString()
+comment4.text=\n\ Returns\ a\ string\ of\ elements\ using\ postorder\ traversal.\n\n\ @return\ postorder\ string\ representation\n
+comment5.params=
+comment5.target=java.lang.String\ inOrderString()
+comment5.text=\n\ Returns\ a\ string\ of\ elements\ using\ inorder\ traversal.\n\n\ @return\ inorder\ string\ representation\n
+comment6.params=
+comment6.target=void\ empty()
+comment6.text=\n\ Removes\ all\ elements\ from\ the\ tree.\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\n\ Returns\ true\ if\ the\ tree\ has\ no\ elements.\n\n\ @return\ true\ if\ empty\n
+numComments=8

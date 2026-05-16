@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ExpressionFormatException
+comment0.text=\n\ Thrown\ when\ an\ expression\ string\ is\ not\ in\ valid\ infix\ or\ postfix\ format.\n\n\ @author\ Ali\ Kablanbek\n\ @version\ 4/7/26\n
+comment1.params=message
+comment1.target=ExpressionFormatException(java.lang.String)
+comment1.text=\n\ Constructs\ an\ ExpressionFormatException\ with\ the\ given\ detail\ message.\n\n\ @param\ message\ description\ of\ the\ formatting\ problem\n
+numComments=2

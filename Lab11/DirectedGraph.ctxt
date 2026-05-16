@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DirectedGraph
+comment0.text=\n\ A\ generic\ directed\ weighted\ graph.\n\ @param\ <K>\ the\ type\ of\ key\ stored\ in\ each\ node\n\ @author\ Ali\ Kablanbek\n\ @version\ 5/5/26\n
+comment1.params=
+comment1.target=DirectedGraph()
+comment1.text=Creates\ an\ empty\ directed\ graph.
+comment2.params=k
+comment2.target=DirectedGraph.DirectedGraphNode\ findNode(java.lang.Object)
+comment3.params=k
+comment3.target=boolean\ addNode(java.lang.Object)
+comment3.text=\n\ Adds\ a\ node\ with\ key\ k.\ Does\ nothing\ and\ returns\ false\ if\ k\ already\ exists.\n
+comment4.params=k1\ k2\ w
+comment4.target=boolean\ addEdge(java.lang.Object,\ java.lang.Object,\ int)
+comment4.text=\n\ Adds\ a\ directed\ edge\ from\ k1\ to\ k2\ with\ weight\ w.\n\ If\ the\ edge\ already\ exists,\ updates\ its\ weight.\n\ Returns\ false\ if\ either\ node\ does\ not\ exist.\n
+comment5.params=k
+comment5.target=java.util.ArrayList\ getNeighbors(java.lang.Object)
+comment5.text=\n\ Returns\ all\ keys\ reachable\ from\ k\ in\ one\ hop.\n
+comment6.params=k1
+comment6.target=void\ breadthFirstClosest(java.lang.Object)
+comment6.text=\n\ Prints\ each\ node's\ closest\ neighbor\ in\ BFS\ order\ starting\ from\ k1.\n
+numComments=7

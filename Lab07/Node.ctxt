@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ A\ generic\ singly-linked\ list\ Node.\n\ Each\ Node\ stores\ a\ value\ and\ a\ reference\ to\ the\ next\ Node.\n\ The\ Node\ itself\ represents\ the\ full\ list\ beginning\ at\ this\ head\ node;\n\ traversing\ {@code\ next}\ pointers\ reaches\ every\ subsequent\ element.\n\n\ @param\ <E>\ the\ type\ of\ elements\ stored\ in\ this\ linked\ list\n\ @author\ Ali\ Kablanbek\n\ @version\ 3/31/26\n
+comment1.params=d
+comment1.target=Node(java.lang.Object)
+comment1.text=\n\ Constructs\ a\ single-element\ Node\ with\ no\ successor.\n\n\ @param\ d\ the\ value\ to\ store\ in\ this\ node\n
+comment2.params=list
+comment2.target=Node(java.util.ArrayList)
+comment2.text=\n\ Constructs\ a\ linked\ list\ from\ an\ ArrayList,\ making\ this\ Node\ the\ head.\n\ The\ first\ element\ of\ {@code\ list}\ is\ stored\ in\ this\ node;\n\ each\ subsequent\ element\ becomes\ its\ own\ node\ chained\ via\ {@code\ next}.\n\n\ @param\ list\ the\ ArrayList\ whose\ elements\ populate\ the\ linked\ list,\n\ \ \ \ \ \ \ \ \ \ \ \ \ in\ order\ from\ head\ to\ tail\n\ @throws\ IllegalArgumentException\ if\ {@code\ list}\ is\ null\ or\ empty\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ a\ comma-and-space-separated\ String\ of\ every\ value\ in\ the\ list,\n\ starting\ from\ this\ head\ node\ and\ traversing\ to\ the\ tail.\n\ A\ single-element\ list\ returns\ just\ that\ element\ with\ no\ comma.\n\ ex\:\ a\ list\ [1,\ 2,\ 3]\ returns\ {@code\ "1,\ 2,\ 3"}\n\n\ @return\ a\ String\ representation\ of\ the\ linked\ list\n
+comment4.params=value
+comment4.target=void\ addToBack(java.lang.Object)
+comment4.text=\n\ Appends\ a\ new\ node\ holding\ {@code\ value}\ to\ the\ tail\ of\ the\ linked\ list.\n\ Traverses\ from\ this\ head\ node\ to\ the\ last\ node,then\ sets\ its\n\ {@code\ next}\ pointer\ to\ the\ new\ node.\n\n\ @param\ value\ the\ value\ to\ add\ at\ the\ back\ of\ the\ list\n
+comment5.params=value
+comment5.target=void\ addToFront(java.lang.Object)
+comment5.text=\n\ Prepends\ {@code\ value}\ to\ the\ front\ of\ the\ linked\ list.\n\ Because\ {@code\ this}\ cannot\ be\ reassigned,\ the\ current\ head's\ value\ is\n\ copied\ into\ a\ new\ node\ that\ takes\ over\ the\ second\ position,\ and\n\ {@code\ value}\ is\ written\ directly\ into\ this\ node.\n\ The\ head\ node's\ identity\ (object\ reference)\ never\ changes.\n\n\ @param\ value\ the\ value\ to\ add\ at\ the\ front\ of\ the\ list\n
+comment6.params=k
+comment6.target=void\ rotate(int)
+comment6.text=\n\ Rotates\ the\ linked\ list\ to\ the\ right\ by\ {@code\ k}\ positions\ in\ place.\n\ The\ last\ {@code\ k\ %\ length}\ elements\ wrap\ around\ to\ become\ the\ new\ front.\n\ Example\:\ [1,\ 2,\ 3,\ 4,\ 5]\ rotated\ right\ by\ 2\ becomes\ [4,\ 5,\ 1,\ 2,\ 3].\n\ Rotating\ by\ a\ multiple\ of\ the\ list\ length\ leaves\ the\ list\ unchanged.\n\ Because\ {@code\ this}\ cannot\ be\ reassigned,\ values\ are\ collected\ into\ a\n\ temporary\ array\ and\ written\ back\ to\ nodes\ in\ rotated\ order.\n\n\ @param\ k\ the\ number\ of\ positions\ to\ rotate\ right;\ must\ be\ non-negative\n\ @throws\ IllegalArgumentException\ if\ {@code\ k}\ is\ negative\n
+numComments=7

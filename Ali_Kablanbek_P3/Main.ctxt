@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Entry\ point\ for\ the\ transport\ simulation.\n\ Usage\:\ java\ Main\ [seed]\n\ If\ config.txt\ exists\ it\ is\ reused;\ otherwise\ a\ new\ world\ is\ generated.\n\ @author\ Ali\ Kablanbek\n\ @version\ 5/15\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

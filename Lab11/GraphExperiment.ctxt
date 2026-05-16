@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GraphExperiment
+comment0.text=\n\ Reads\ a\ graph\ from\ a\ file\ and\ prints\ each\ node's\ closest\ neighbor\n\ in\ BFS\ order\ starting\ from\ the\ first\ node\ listed.\n\ @author\ Ali\ Kablanbek\n\ @version\ 5/5/26\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Entry\ point.\ Expects\ a\ filename\ as\ the\ first\ command-line\ argument.\n\ File\ format\:\ first\ line\ lists\ node\ names,\ subsequent\ lines\ list\ edges\ as\ "src\ dst\ weight"\n
+numComments=2
