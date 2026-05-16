@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Schedule
-comment0.text=\n\ Implemented\ by\ Truck\ and\ Warehouse.\n\ Allows\ SimClock\ to\ drive\ all\ entities\ uniformly\ each\ hour.\n\ \n\ @author\ Ali\ Kablanbek\n\ @version\ 5/15\n
-comment1.params=
-comment1.target=void\ action()
-comment2.params=
-comment2.target=void\ logStatus()
-numComments=3

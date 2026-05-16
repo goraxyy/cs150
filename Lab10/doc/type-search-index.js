@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"MyClassicPriorityQueue"},{"p":"<Unnamed>","l":"MyPriorityQueue"},{"p":"<Unnamed>","l":"PriorityQueueTest"},{"p":"<Unnamed>","l":"WeightedElement"}];updateSearchResults();

@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"DirectedGraph"},{"p":"<Unnamed>","l":"DirectedGraph.DirectedGraphEdge"},{"p":"<Unnamed>","l":"DirectedGraph.DirectedGraphNode"},{"p":"<Unnamed>","l":"DirectedGraphTest"},{"p":"<Unnamed>","l":"GraphExperiment"}];updateSearchResults();

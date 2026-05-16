@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"ExpressionEvaluator"},{"p":"<Unnamed>","l":"ExpressionFormatException"},{"p":"<Unnamed>","l":"InfixPostfix"},{"p":"<Unnamed>","l":"InfixPostfixTest"}];updateSearchResults();
